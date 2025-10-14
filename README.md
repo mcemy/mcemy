@@ -5,7 +5,6 @@
 <h1 align="center">Hi there, I'm Emile Ferreira! 👋</h1>
 
 <p align="center">
-  <!-- LinkedIn rosa pastel (na paleta) -->
   <a href="https://www.linkedin.com/in/emile-ferreira-21a776274" target="_blank">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-FFB3C1?logo=linkedin&logoColor=2E2A25&labelColor=E8DCCF&style=for-the-badge">
   </a>
@@ -24,7 +23,7 @@
 ---
 
 <h2>
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart icon"/>
+  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
   Top Skills & Technologies
 </h2>
 
@@ -40,21 +39,17 @@
   <img src="https://img.shields.io/badge/-Google%20Cloud-E8DCCF?logo=google-cloud&logoColor=2E2A25&label=Google%20Cloud&color=C7A7CC&style=flat" alt="Google Cloud"/>
 </p>
 
+<!-- Linha 2 no mesmo padrão dos badges -->
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="28" alt="js"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="28" alt="ts"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="28" alt="node"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="28" alt="react"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="28" alt="python"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="28" alt="gcp"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="28" alt="docker"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="28" alt="github"/>
+  <img src="https://img.shields.io/badge/TypeScript-C7A7CC?logo=typescript&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Docker-C7A7CC?logo=docker&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="Docker"/>
+  <img src="https://img.shields.io/badge/GitHub-7AA6A1?logo=github&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="GitHub"/>
 </p>
 
 ---
 
 <h2>
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart icon"/>
+  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
   Favorite Project
 </h2>
 
@@ -69,20 +64,38 @@
 ---
 
 <h2>
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart icon"/>
+  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
   About Me (Quick Bits)
 </h2>
 
-- ♥ Currently learning: **TypeScript** & **AI tooling**  
-- ♥ Building: **automation-first** flows (APIs, scripts, low-code)  
-- ♥ Ask me about: **JS/Node**, **React**, **automation**, **Docs-as-code**  
-- ♥ Goal: ship **useful** stuff, iterate fast, document always  
-- ♥ Open to collab: DM me!
+<!-- Bullets com APENAS a imagem de coração (sem • do markdown) -->
+<ul style="list-style:none; padding-left:0;">
+  <li>
+    <img src="https://camo.githubusercontent.com/0cdf4bc9a123150910c2ae56bc2dc6bbe490d8beb5ac4085a3bf9af473393f1e/68747470733a2f2f6172742e706978696c6172742e636f6d2f73723232326137396464626461617773332e706e67" width="14" height="14" style="vertical-align:middle; margin-right:8px;" alt="heart"/>
+    Currently learning: <b>TypeScript</b> & <b>AI tooling</b>
+  </li>
+  <li>
+    <img src="https://camo.githubusercontent.com/0cdf4bc9a123150910c2ae56bc2dc6bbe490d8beb5ac4085a3bf9af473393f1e/68747470733a2f2f6172742e706978696c6172742e636f6d2f73723232326137396464626461617773332e706e67" width="14" height="14" style="vertical-align:middle; margin-right:8px;" alt="heart"/>
+    Building: <b>automation-first</b> flows (APIs, scripts, low-code)
+  </li>
+  <li>
+    <img src="https://camo.githubusercontent.com/0cdf4bc9a123150910c2ae56bc2dc6bbe490d8beb5ac4085a3bf9af473393f1e/68747470733a2f2f6172742e706978696c6172742e636f6d2f73723232326137396464626461617773332e706e67" width="14" height="14" style="vertical-align:middle; margin-right:8px;" alt="heart"/>
+    Ask me about: <b>JS/Node</b>, <b>React</b>, <b>automation</b>, <b>Docs-as-code</b>
+  </li>
+  <li>
+    <img src="https://camo.githubusercontent.com/0cdf4bc9a123150910c2ae56bc2dc6bbe490d8beb5ac4085a3bf9af473393f1e/68747470733a2f2f6172742e706978696c6172742e636f6d2f73723232326137396464626461617773332e706e67" width="14" height="14" style="vertical-align:middle; margin-right:8px;" alt="heart"/>
+    Goal: ship <b>useful</b> stuff, iterate fast, document always
+  </li>
+  <li>
+    <img src="https://camo.githubusercontent.com/0cdf4bc9a123150910c2ae56bc2dc6bbe490d8beb5ac4085a3bf9af473393f1e/68747470733a2f2f6172742e706978696c6172742e636f6d2f73723232326137396464626461617773332e706e67" width="14" height="14" style="vertical-align:middle; margin-right:8px;" alt="heart"/>
+    Open to collab: DM me!
+  </li>
+</ul>
 
 ---
 
 <h2>
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart icon"/>
+  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
   Favorite Games
 </h2>
 
@@ -94,7 +107,7 @@
 ---
 
 <h2>
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart icon"/>
+  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
   Favorite Music
 </h2>
 
@@ -119,7 +132,7 @@
 ---
 
 <h2>
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart icon"/>
+  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
   GitHub Trophies
 </h2>
 
@@ -130,7 +143,7 @@
 ---
 
 <h2>
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart icon"/>
+  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
   Most Used Languages & GitHub Stats
 </h2>
 
@@ -143,7 +156,7 @@
 ---
 
 <h2>
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart icon"/>
+  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
   Contribution Activity (Graph)
 </h2>
 
