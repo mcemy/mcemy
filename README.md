@@ -5,8 +5,9 @@
 <h1 align="center">Hi there, I'm Emile Ferreira! 👋</h1>
 
 <p align="center">
-  <a href="mailto:emileferreira.dev@gmail.com" target="_blank">
-    <img alt="Gmail" src="https://img.shields.io/badge/Email-FFB3C1?logo=gmail&logoColor=2E2A25&labelColor=E8DCCF&style=for-the-badge">
+  <!-- LinkedIn rosa pastel (na paleta) -->
+  <a href="https://www.linkedin.com/in/emile-ferreira-21a776274" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-FFB3C1?logo=linkedin&logoColor=2E2A25&labelColor=E8DCCF&style=for-the-badge">
   </a>
   <a href="https://github.com/mcemy?tab=repositories" target="_blank">
     <img alt="Repos" src="https://img.shields.io/badge/All%20Repos-7AA6A1?logo=github&logoColor=2E2A25&labelColor=E8DCCF&style=for-the-badge">
@@ -72,11 +73,11 @@
   About Me (Quick Bits)
 </h2>
 
-- <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> Currently learning: **TypeScript** & **AI tooling**  
-- <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> Building: **automation-first** flows (APIs, scripts, low-code)  
-- <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> Ask me about: **JS/Node**, **React**, **automation**, **Docs-as-code**  
-- <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> Goal: ship **useful** stuff, iterate fast, document always  
-- <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> Open to collab: DM me!
+- ♥ Currently learning: **TypeScript** & **AI tooling**  
+- ♥ Building: **automation-first** flows (APIs, scripts, low-code)  
+- ♥ Ask me about: **JS/Node**, **React**, **automation**, **Docs-as-code**  
+- ♥ Goal: ship **useful** stuff, iterate fast, document always  
+- ♥ Open to collab: DM me!
 
 ---
 
@@ -86,8 +87,8 @@
 </h2>
 
 <p align="left">
-  <img src="https://img.icons8.com/?size=100&id=XfjNd4vkhBBy&format=png&color=7AA6A1" width="24" alt="Minecraft Icon"/> <b>Minecraft</b><br/>
-  <img src="https://img.icons8.com/color/48/000000/the-sims.png" width="24" alt="The Sims Icon"/> <b>The Sims</b>
+  <img src="https://img.icons8.com/?size=100&id=AGd4H8W40vJ2&format=png&color=F25081" width="24" alt="Minecraft Icon (pink)"/> <b>Minecraft</b><br/>
+  <img src="https://img.icons8.com/ios-filled/50/FFB3C1/the-sims.png" width="24" alt="The Sims Icon (pink)"/> <b>The Sims</b>
 </p>
 
 ---
