@@ -28,22 +28,21 @@
 </h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-JavaScript-E8DCCF?logo=javascript&logoColor=2E2A25&label=JavaScript&color=FFB3C1&style=flat" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/-Node.js-E8DCCF?logo=node.js&logoColor=2E2A25&label=Node.js&color=7AA6A1&style=flat" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/-Python-E8DCCF?logo=python&logoColor=2E2A25&label=Python&color=C7A7CC&style=flat" alt="Python"/>
-  <img src="https://img.shields.io/badge/-React-E8DCCF?logo=react&logoColor=2E2A25&label=React&color=7AA6A1&style=flat" alt="React"/>
-  <img src="https://img.shields.io/badge/-AI%20Prompting-E8DCCF?logoColor=2E2A25&color=FFB3C1&style=flat" alt="AI Prompting"/>
-  <img src="https://img.shields.io/badge/-SQL-E8DCCF?logo=sqlite&logoColor=2E2A25&label=SQL&color=C7A7CC&style=flat" alt="SQL"/>
-  <img src="https://img.shields.io/badge/-HTML5-E8DCCF?logo=html5&logoColor=2E2A25&label=HTML5&color=FFB3C1&style=flat" alt="HTML"/>
-  <img src="https://img.shields.io/badge/-CSS3-E8DCCF?logo=css3&logoColor=2E2A25&label=CSS3&color=7AA6A1&style=flat" alt="CSS"/>
-  <img src="https://img.shields.io/badge/-Google%20Cloud-E8DCCF?logo=google-cloud&logoColor=2E2A25&label=Google%20Cloud&color=C7A7CC&style=flat" alt="Google Cloud"/>
+  <img src="https://img.shields.io/badge/-JavaScript-FFB3C1?logo=javascript&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/-Node.js-7AA6A1?logo=node.js&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/-Python-C7A7CC?logo=python&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="Python"/>
+  <img src="https://img.shields.io/badge/-React-7AA6A1?logo=react&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="React"/>
+  <img src="https://img.shields.io/badge/-AI%20Prompting-FFB3C1?logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="AI Prompting"/>
+  <img src="https://img.shields.io/badge/-SQL-C7A7CC?logo=sqlite&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="SQL"/>
+  <img src="https://img.shields.io/badge/-HTML5-FFB3C1?logo=html5&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/-CSS3-7AA6A1?logo=css3&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/-Google%20Cloud-C7A7CC?logo=google-cloud&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="Google Cloud"/>
 </p>
 
-<!-- Linha 2 no mesmo padrão dos badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-C7A7CC?logo=typescript&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Docker-C7A7CC?logo=docker&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="Docker"/>
-  <img src="https://img.shields.io/badge/GitHub-7AA6A1?logo=github&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/-TypeScript-C7A7CC?logo=typescript&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/-Docker-C7A7CC?logo=docker&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="Docker"/>
+  <img src="https://img.shields.io/badge/-GitHub-7AA6A1?logo=github&logoColor=2E2A25&labelColor=E8DCCF&style=flat" alt="GitHub"/>
 </p>
 
 ---
@@ -57,7 +56,7 @@
 
 <p align="center">
   <a href="https://github.com/mcemy/Atividades-de-Registro">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mcemy&repo=Atividades-de-Registro&theme=rose_pine" alt="Pinned repo card" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mcemy&repo=Atividades-de-Registro&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&icon_color=7AA6A1&border_color=E8DCCF" alt="Pinned repo card" />
   </a>
 </p>
 
@@ -68,7 +67,6 @@
   About Me (Quick Bits)
 </h2>
 
-<!-- Bullets com APENAS a imagem de coração (sem • do markdown) -->
 <ul style="list-style:none; padding-left:0;">
   <li>
     <img src="https://camo.githubusercontent.com/0cdf4bc9a123150910c2ae56bc2dc6bbe490d8beb5ac4085a3bf9af473393f1e/68747470733a2f2f6172742e706978696c6172742e636f6d2f73723232326137396464626461617773332e706e67" width="14" height="14" style="vertical-align:middle; margin-right:8px;" alt="heart"/>
@@ -148,9 +146,9 @@
 </h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mcemy&layout=compact&langs_count=8&theme=rose_pine" alt="mcemy's Most Used Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mcemy&layout=compact&langs_count=8&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&border_color=E8DCCF" alt="mcemy's Most Used Languages" />
   <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api?username=mcemy&show_icons=true&theme=rose_pine" alt="mcemy's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=mcemy&show_icons=true&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&icon_color=7AA6A1&border_color=E8DCCF&ring_color=7AA6A1" alt="mcemy's GitHub stats" />
 </p>
 
 ---
@@ -161,7 +159,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mcemy&theme=rose-pine" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mcemy&bg_color=FFE3EC&color=2E2A25&line=7AA6A1&point=2E2A25&area=true&area_color=FFB3C1&title_color=2E2A25&hide_border=false&border_color=E8DCCF" alt="Activity Graph"/>
 </p>
 
 ---
