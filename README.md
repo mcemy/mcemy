@@ -1,9 +1,8 @@
-
 <h1 align="center">Hi there, I'm Emile Ferreira! 👋</h1>
 <p align="center"><b>Development Intern • JavaScript • Node.js • Python • AI Prompting • React.js</b></p>
 <p align="center">
   <i>
-    "Development Intern passionate about building seamless web experiences with JavaScript, Node.js, and React. Exploring AI prompting and Python to create smarter solutions. Gamer and music enthusiast. Always learning new technologies!"
+    "Development Intern passionate about building seamless web experiences with JavaScript, Node.js, and React. Exploring AI prompting and Python to create smarter solutions. Gamer and music enthusiast."
   </i>
 </p>
 
@@ -15,6 +14,68 @@
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat)
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
 ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat)
+![AI Prompting](https://img.shields.io/badge/-AI%20Prompting-blueviolet?style=flat)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=sqlite&logoColor=white&style=flat)
+![HTML](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
+![CSS](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)
+![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-4285F4?logo=google-cloud&logoColor=white&style=flat)
+
+---
+
+## 📊 Most Used Languages
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mcemy&layout=compact&langs_count=8&theme=radical" alt="mcemy's Most Used Languages" />
+</p>
+
+---
+
+## 🌟 Favorite Project
+
+- [`Atividades de Registro`](https://github.com/mcemy/Atividades-de-Registro.git)
+
+---
+
+## 🔗 Social Links
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emile-ferreira-21a776274?utm_source=share&utm_campaign=share_via&utm_content=profile)
+
+---
+
+## 🎮 Hobbies & Interests
+
+- Gaming 🎮
+- Music 🎵
+
+---
+
+## 🕹️ Favorite Games
+
+- ![Minecraft Icon](https://img.icons8.com/color/48/000000/minecraft.png) **Minecraft**
+- ![The Sims Icon](https://img.icons8.com/color/48/000000/the-sims.png) **The Sims**
+
+---
+
+## 🎵 Favorite Music & Album
+
+- **Poison Ivy** by *Ivy*  
+  [![Spotify](https://img.shields.io/badge/Listen%20on-Spotify-1ED760?logo=spotify&logoColor=white)](https://open.spotify.com/intl-pt/track/0A1bOmCvvxxn8oWToYzRrz?si=d5457125bc344c6d)
+- **Favorite Album:** *Discovery* by Daft Punk  
+  [![Spotify Album](https://img.shields.io/badge/Listen%20on%20Spotify-Discovery-blue?logo=spotify&logoColor=white)](https://open.spotify.com/album/2noRn2Aes5aoNVsU6iWThc)
+
+---
+
+## 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mcemy&show_icons=true&theme=radical" alt="mcemy's GitHub stats" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=mcemy&label=Profile%20views&color=0e75b6&style=flat" alt="mcemy" />
+</p>![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat)
 ![AI Prompting](https://img.shields.io/badge/-AI%20Prompting-blueviolet?style=flat)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=sqlite&logoColor=white&style=flat)
 ![HTML](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
