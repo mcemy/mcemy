@@ -52,7 +52,9 @@
   Favorite Project
 </h2>
 
-- [`Atividades de Registro`](https://github.com/mcemy/Atividades-de-Registro.git)
+<p align="center">
+  <a href="https://github.com/mcemy/Atividades-de-Registro">Atividades de Registro</a>
+</p>
 
 <p align="center">
   <a href="https://github.com/mcemy/Atividades-de-Registro">
@@ -109,23 +111,28 @@
   Favorite Music
 </h2>
 
-<p align="center">
-  <table>
-    <tr>
-      <td align="center" valign="middle">
-        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHN4bWM4cjl0bHJ6czV4M2FidWMwcXd2MnNseHp2NHplcWtqcXhnbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1vLHnnIiwUN7a/giphy.gif" width="96" height="96" alt="Spinning Vinyl GIF"/>
-      </td>
-      <td>
-        <b>Poison Ivy</b> <br/>
-        <i>Ivy</i>
-        <br/><br/>
-        <a href="https://open.spotify.com/intl-pt/track/0A1bOmCvvxxn8oWToYzRrz?si=d5457125bc344c6d" target="_blank">
-          <img src="https://img.shields.io/badge/Listen%20on-Spotify-FFB3C1?logo=spotify&logoColor=2E2A25&labelColor=E8DCCF" alt="Listen on Spotify"/>
-        </a>
-      </td>
-    </tr>
-  </table>
-</p>
+<div align="center">
+<table>
+  <tr>
+    <td align="center" valign="top" width="280" style="padding:10px;">
+      <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHN4bWM4cjl0bHJ6czV4M2FidWMwcXd2MnNseHp2NHplcWtqcXhnbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1vLHnnIiwUN7a/giphy.gif" width="128" height="128" alt="Poison Ivy GIF"/><br/>
+      <b>Poison Ivy</b><br/>
+      <i>Ivy</i><br/><br/>
+      <a href="https://open.spotify.com/intl-pt/track/0A1bOmCvvxxn8oWToYzRrz?si=d5457125bc344c6d" target="_blank">
+        <img src="https://img.shields.io/badge/Listen%20on-Spotify-FFB3C1?logo=spotify&logoColor=2E2A25&labelColor=E8DCCF" alt="Listen on Spotify"/>
+      </a>
+    </td>
+    <td align="center" valign="top" width="280" style="padding:10px;">
+      <img src="https://b-ssl.duitang.com/uploads/item/201805/31/20180531232035_yhyvx.gif" width="128" height="128" alt="eugene - 차 차 GIF"/><br/>
+      <b>차 차</b><br/>
+      <i>eugene</i><br/><br/>
+      <a href="https://open.spotify.com/intl-pt/track/5gf02Up1VjHZ8hZYtmF1TE?si=cbc5403fd1fe4151" target="_blank">
+        <img src="https://img.shields.io/badge/Listen%20on-Spotify-FFB3C1?logo=spotify&logoColor=2E2A25&labelColor=E8DCCF" alt="Listen on Spotify"/>
+      </a>
+    </td>
+  </tr>
+</table>
+</div>
 
 ---
 
