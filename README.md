@@ -1,7 +1,5 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=240&section=header&text=%20JUNIOR%20DEVELOPER%20&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Emile%20Ferreira%20•%20Based%20in%20Brazil%20&descAlignY=56&customColorList=FFB3C1,e29090,F4CCC"/>
-
+  <img src="./header.svg" alt="Header animado" />
 </div>
 
 <div align="center">
