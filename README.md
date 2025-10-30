@@ -235,19 +235,6 @@ Creating stories through simulation
 
 <h2 style="text-align:left; background: linear-gradient(90deg, #FFFFFF 0%, #FFE3EC 100%); padding: 8px 12px; border-radius: 8px;">
   <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
-  GITHUB ANALYTICS
-</h2>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=mcemy&show_icons=true&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&icon_color=7AA6A1&border_color=E8DCCF&ring_color=7AA6A1&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-
-</div>
-
----
-
-<h2 style="text-align:left; background: linear-gradient(90deg, #FFFFFF 0%, #FFE3EC 100%); padding: 8px 12px; border-radius: 8px;">
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
   CONTRIBUTION ACTIVITY
 </h2>
 
