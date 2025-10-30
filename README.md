@@ -81,24 +81,18 @@ Merging creativity with technical precision to deliver impactful projects.
 
 <div align="center">
 
-### Core Technologies
+### Technologies & Infrastructure
 
 <img src="https://img.shields.io/badge/JavaScript-FFB3C1?style=for-the-badge&logo=javascript&logoColor=2E2A25&labelColor=E8DCCF" alt="JavaScript"/>
 <img src="https://img.shields.io/badge/Node.js-7AA6A1?style=for-the-badge&logo=node.js&logoColor=2E2A25&labelColor=E8DCCF" alt="Node.js"/>
 <img src="https://img.shields.io/badge/React-7AA6A1?style=for-the-badge&logo=react&logoColor=2E2A25&labelColor=E8DCCF" alt="React"/>
 <img src="https://img.shields.io/badge/Python-C7A7CC?style=for-the-badge&logo=python&logoColor=2E2A25&labelColor=E8DCCF" alt="Python"/>
 <img src="https://img.shields.io/badge/TypeScript-C7A7CC?style=for-the-badge&logo=typescript&logoColor=2E2A25&labelColor=E8DCCF" alt="TypeScript"/>
-
-### Tools & Infrastructure
-
 <img src="https://img.shields.io/badge/SQL-C7A7CC?style=for-the-badge&logo=sqlite&logoColor=2E2A25&labelColor=E8DCCF" alt="SQL"/>
 <img src="https://img.shields.io/badge/Docker-C7A7CC?style=for-the-badge&logo=docker&logoColor=2E2A25&labelColor=E8DCCF" alt="Docker"/>
 <img src="https://img.shields.io/badge/Google_Cloud-C7A7CC?style=for-the-badge&logo=google-cloud&logoColor=2E2A25&labelColor=E8DCCF" alt="Google Cloud"/>
 <img src="https://img.shields.io/badge/GitHub-7AA6A1?style=for-the-badge&logo=github&logoColor=2E2A25&labelColor=E8DCCF" alt="GitHub"/>
 <img src="https://img.shields.io/badge/AI_Prompting-FFB3C1?style=for-the-badge&logoColor=2E2A25&labelColor=E8DCCF" alt="AI Prompting"/>
-
-### Frontend & Styling
-
 <img src="https://img.shields.io/badge/HTML5-FFB3C1?style=for-the-badge&logo=html5&logoColor=2E2A25&labelColor=E8DCCF" alt="HTML5"/>
 <img src="https://img.shields.io/badge/CSS3-7AA6A1?style=for-the-badge&logo=css3&logoColor=2E2A25&labelColor=E8DCCF" alt="CSS3"/>
 
@@ -252,7 +246,6 @@ Creating stories through simulation
 
 <div align="center">
 
-**Ship useful stuff • Iterate fast • Document always**
 
 <img src="https://komarev.com/ghpvc/?username=mcemy&label=Profile%20Views&color=7AA6A1&style=for-the-badge" alt="Profile Views"/>
 
