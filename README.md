@@ -43,7 +43,7 @@
 <td width="50%" valign="top">
 <h3>
   <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/>
-  WHAT I DO
+  SKILLS
 </h3>
 
 <b><img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="20" height="20" style="vertical-align:middle; margin-right:6px"> WEB DESIGN</b><br>
