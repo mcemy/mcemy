@@ -1,1 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.6; }
+      }
+      @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
+      }
+
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+
+      /* Essencial p/ animar transform em elementos SVG */
+      .bounce1, .bounce2, .bounce3, .bounce4, .bounce5 {
+        animation: bounce 1s ease-in-out infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+        will-change: transform;
+      }
+      .bounce2 { animation-delay: 0.2s; }
+      .bounce3 { animation-delay: 0.4s; }
+      .bounce4 { animation-delay: 0.6s; }
+      .bounce5 { animation-delay: 0.8s; }
+    </style>
+  </defs>
+
+  <!-- fundo e molduras -->
+  <rect width="800" height="280" fill="#2E2A25"/>
+  <rect x="10" y="10" width="780" height="260" fill="none" stroke="#7AA6A1" stroke-width="8" rx="15"/>
+  <rect x="25" y="25" width="750" height="230" fill="none" stroke="#FFB3C1" stroke-width="4" rx="10"/>
+  <rect x="30" y="30" width="15" height="15" fill="#C7A7CC"/>
+  <rect x="755" y="30" width="15" height="15" fill="#C7A7CC"/>
+  <rect x="30" y="235" width="15" height="15" fill="#C7A7CC"/>
+  <rect x="755" y="235" width="15" height="15" fill="#C7A7CC"/>
+
+  <!-- título -->
+  <text x="400" y="85" font-family="'Courier New', monospace" font-size="48" font-weight="bold" fill="#FFB3C1" text-anchor="middle" letter-spacing="8" filter="url(#glow)">JUNIOR DEVELOPER</text>
+
+  <!-- pontinhos pulsando -->
+  <g class="pulse">
+    <circle cx="320" cy="105" r="4" fill="#7AA6A1"/>
+    <circle cx="350" cy="105" r="4" fill="#7AA6A1"/>
+    <circle cx="400" cy="105" r="4" fill="#7AA6A1"/>
+    <circle cx="450" cy="105" r="4" fill="#7AA6A1"/>
+    <circle cx="480" cy="105" r="4" fill="#7AA6A1"/>
+  </g>
+
+  <!-- subtítulo -->
+  <text x="400" y="135" font-family="'Courier New', monospace" font-size="16" fill="#E8DCCF" text-anchor="middle" letter-spacing="4">EMILE FERREIRA • BASED IN BRAZIL</text>
+
+  <!-- bichinho 1 -->
+  <g class="bounce1">
+    <rect x="200" y="160" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="205" y="160" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="210" y="160" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="215" y="160" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="195" y="165" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="200" y="165" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="205" y="165" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="210" y="165" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="215" y="165" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="220" y="165" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="195" y="170" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="200" y="170" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="205" y="170" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="210" y="170" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="195" y="175" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="200" y="175" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="205" y="175" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="195" y="180" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="200" y="180" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="205" y="180" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="195" y="185" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="200" y="185" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="205" y="185" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="210" y="185" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="195" y="190" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="200" y="190" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="205" y="190" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="210" y="190" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="215" y="190" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="220" y="190" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="200" y="195" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="205" y="195" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="210" y="195" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="215" y="195" width="5" height="5" fill="#FFB3C1"/>
+  </g>
+
+  <!-- bichinho 2 -->
+  <g class="bounce2">
+    <rect x="305" y="165" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="310" y="165" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="315" y="165" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="320" y="165" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="300" y="170" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="305" y="170" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="310" y="170" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="315" y="170" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="320" y="170" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="325" y="170" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="295" y="175" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="300" y="175" width="5" height="5" fill="#2E2A25"/>
+    <rect x="305" y="175" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="310" y="175" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="315" y="175" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="320" y="175" width="5" height="5" fill="#2E2A25"/>
+    <rect x="325" y="175" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="330" y="175" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="295" y="180" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="300" y="180" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="305" y="180" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="310" y="180" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="315" y="180" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="320" y="180" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="325" y="180" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="330" y="180" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="295" y="185" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="300" y="185" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="305" y="185" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="310" y="185" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="315" y="185" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="320" y="185" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="325" y="185" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="330" y="185" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="295" y="190" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="300" y="190" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="305" y="190" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="310" y="190" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="315" y="190" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="320" y="190" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="325" y="190" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="330" y="190" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="295" y="195" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="305" y="195" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="315" y="195" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="325" y="195" width="5" height="5" fill="#7AA6A1"/>
+  </g>
+
+  <!-- bichinho 3 -->
+  <g class="bounce3">
+    <rect x="405" y="165" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="410" y="165" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="420" y="165" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="425" y="165" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="400" y="170" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="405" y="170" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="410" y="170" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="415" y="170" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="420" y="170" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="425" y="170" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="430" y="170" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="400" y="175" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="405" y="175" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="410" y="175" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="415" y="175" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="420" y="175" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="425" y="175" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="430" y="175" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="400" y="180" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="405" y="180" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="410" y="180" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="415" y="180" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="420" y="180" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="425" y="180" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="430" y="180" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="405" y="185" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="410" y="185" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="415" y="185" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="420" y="185" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="425" y="185" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="410" y="190" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="415" y="190" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="420" y="190" width="5" height="5" fill="#FFB3C1"/>
+    <rect x="415" y="195" width="5" height="5" fill="#FFB3C1"/>
+  </g>
+
+  <!-- bichinho 4 -->
+  <g class="bounce4">
+    <rect x="515" y="160" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="520" y="160" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="515" y="165" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="520" y="165" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="500" y="170" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="505" y="170" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="510" y="170" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="515" y="170" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="520" y="170" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="525" y="170" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="530" y="170" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="535" y="170" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="505" y="175" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="510" y="175" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="515" y="175" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="520" y="175" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="525" y="175" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="530" y="175" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="510" y="180" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="515" y="180" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="520" y="180" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="525" y="180" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="505" y="185" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="510" y="185" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="525" y="185" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="530" y="185" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="500" y="190" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="505" y="190" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="530" y="190" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="535" y="190" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="500" y="195" width="5" height="5" fill="#C7A7CC"/>
+    <rect x="535" y="195" width="5" height="5" fill="#C7A7CC"/>
+  </g>
+
+  <!-- bichinho 5 -->
+  <g class="bounce5">
+    <rect x="615" y="160" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="620" y="160" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="610" y="165" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="615" y="165" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="620" y="165" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="625" y="165" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="605" y="170" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="610" y="170" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="625" y="170" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="630" y="170" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="605" y="175" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="610" y="175" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="625" y="175" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="630" y="175" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="605" y="180" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="610" y="180" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="615" y="180" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="620" y="180" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="625" y="180" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="630" y="180" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="610" y="185" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="615" y="185" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="620" y="185" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="625" y="185" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="615" y="190" width="5" height="5" fill="#7AA6A1"/>
+    <rect x="620" y="190" width="5" height="5" fill="#7AA6A1"/>
+  </g>
+
+  <!-- pontinhos pulsando (rodapé) -->
+  <g class="pulse">
+    <circle cx="320" cy="225" r="4" fill="#7AA6A1"/>
+    <circle cx="350" cy="225" r="4" fill="#7AA6A1"/>
+    <circle cx="400" cy="225" r="4" fill="#7AA6A1"/>
+    <circle cx="450" cy="225" r="4" fill="#7AA6A1"/>
+    <circle cx="480" cy="225" r="4" fill="#7AA6A1"/>
+  </g>
+</svg>
 
