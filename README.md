@@ -36,10 +36,14 @@ Merging creativity with technical precision to deliver impactful projects.
 **A junior developer with a strong full-stack foundation**, combining clean architecture, intentional code practices, and product-minded thinking. Specialized in creating **automation-first workflows** through APIs, scripts, and modern frameworks.
 
 **Currently mastering:**
-- <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> TypeScript & Advanced React Patterns
-- <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> AI Tooling & Prompt Engineering
-- <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Performance Optimization
-- <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Docs-as-Code Philosophy
+
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> TypeScript & Advanced React Patterns
+
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> AI Tooling & Prompt Engineering
+
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Performance Optimization
+
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Docs-as-Code Philosophy
 
 </td>
 <td width="50%" valign="top">
@@ -49,17 +53,17 @@ Merging creativity with technical precision to deliver impactful projects.
   WHAT I DO
 </h3>
 
-**00-1. WEB DESIGN**
+**<img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="28" height="28" style="vertical-align:middle; margin-right:6px" alt="heart"/> WEB DESIGN**
 - Modern Layouts & Responsive Design
 - SEO-Friendly Structure
 - Clean Navigation & Visual Storytelling
 
-**00-2. AUTOMATION & TOOLS**
+**<img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="28" height="28" style="vertical-align:middle; margin-right:6px" alt="heart"/> AUTOMATION & TOOLS**
 - Web Automation & Bot Development
 - API Integration & Script Building
 - Workflow Optimization & Low-Code Solutions
 
-**00-3. DEVELOPMENT**
+**<img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="28" height="28" style="vertical-align:middle; margin-right:6px" alt="heart"/> DEVELOPMENT**
 - Full-Stack Development (Front-end + Back-end)
 - Optimization & Support
 - Clean Programming & Architecture Design
