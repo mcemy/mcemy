@@ -143,7 +143,7 @@
 
 <td align="center" width="50%">
 <h3>
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> MUSIC PLAYLIST
+  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> FAVORITE MUSICS
 </h3>
 
 <table>
