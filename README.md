@@ -50,10 +50,12 @@
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Modern Layouts & Responsive Design<br>
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> SEO-Friendly Structure<br>
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Clean Navigation & Visual Storytelling<br><br>
+
 <b><img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="20" height="20" style="vertical-align:middle; margin-right:6px"> AUTOMATION & TOOLS</b><br>
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Web Automation & Bot Development<br>
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> API Integration & Script Building<br>
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Workflow Optimization & Low-Code Solutions<br><br>
+
 <b><img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="20" height="20" style="vertical-align:middle; margin-right:6px"> DEVELOPMENT</b><br>
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Full-Stack Development (Front-end + Back-end)<br>
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Optimization & Support<br>
@@ -116,6 +118,23 @@
 
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=mcemy&theme=chalk&no-bg=true&no-frame=true&row=1&column=7&margin-w=10" alt="Trophies"/>
+</div>
+
+---
+
+<h2 style="text-align:left; background: linear-gradient(90deg, #FFFFFF 0%, #FFE3EC 100%); padding: 8px 12px; border-radius: 8px;">
+  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
+  CONTRIBUTION ACTIVITY
+</h2>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mcemy&bg_color=FFE3EC&color=2E2A25&line=7AA6A1&point=FFB3C1&area=true&area_color=FFB3C1&title_color=2E2A25&hide_border=false&border_color=E8DCCF" alt="Contribution Graph"/>
+</div>
+
+<br>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/mcemy/mcemy/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
 
 ---
@@ -197,17 +216,6 @@ Clean implementation focused on accessibility and usability.
 </td>
 </tr>
 </table>
-</div>
-
----
-
-<h2 style="text-align:left; background: linear-gradient(90deg, #FFFFFF 0%, #FFE3EC 100%); padding: 8px 12px; border-radius: 8px;">
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
-  CONTRIBUTION ACTIVITY
-</h2>
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mcemy&bg_color=FFE3EC&color=2E2A25&line=7AA6A1&point=FFB3C1&area=true&area_color=FFB3C1&title_color=2E2A25&hide_border=false&border_color=E8DCCF" alt="Contribution Graph"/>
 </div>
 
 ---
