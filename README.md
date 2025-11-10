@@ -124,23 +124,6 @@
 
 <h2 style="text-align:left; background: linear-gradient(90deg, #FFFFFF 0%, #FFE3EC 100%); padding: 8px 12px; border-radius: 8px;">
   <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
-  CONTRIBUTION ACTIVITY
-</h2>
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mcemy&bg_color=FFE3EC&color=2E2A25&line=7AA6A1&point=FFB3C1&area=true&area_color=FFB3C1&title_color=2E2A25&hide_border=false&border_color=E8DCCF" alt="Contribution Graph"/>
-</div>
-
-<br>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/mcemy/mcemy/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</div>
-
----
-
-<h2 style="text-align:left; background: linear-gradient(90deg, #FFFFFF 0%, #FFE3EC 100%); padding: 8px 12px; border-radius: 8px;">
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
   BEYOND CODE
 </h2>
 
@@ -216,6 +199,23 @@ Clean implementation focused on accessibility and usability.
 </td>
 </tr>
 </table>
+</div>
+
+---
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/mcemy/mcemy/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</div>
+
+---
+
+<h2 style="text-align:left; background: linear-gradient(90deg, #FFFFFF 0%, #FFE3EC 100%); padding: 8px 12px; border-radius: 8px;">
+  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
+  CONTRIBUTION ACTIVITY
+</h2>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mcemy&bg_color=FFE3EC&color=2E2A25&line=7AA6A1&point=FFB3C1&area=true&area_color=FFB3C1&title_color=2E2A25&hide_border=false&border_color=E8DCCF" alt="Contribution Graph"/>
 </div>
 
 ---
