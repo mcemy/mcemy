@@ -31,7 +31,7 @@
   MY EXPERIENCE
 </h3>
 
-<b>A junior developer with a strong full-stack foundation</b>, combining clean architecture, intentional code practices, and product-minded thinking. Specialized in creating <b>automation-first workflows</b> through APIs, scripts, and modern frameworks.<br><br>
+<b>A junior developer with a strong full-stack foundation</b>, combining clean architecture, intentional code practices, and product-minded thinking. Specialized in creating <b>automation-first workflows</b> through APIs, scripts, and modern frameworks.
 
 <b>Currently mastering:</b><br>
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> TypeScript & Advanced React Patterns<br>
@@ -47,19 +47,17 @@
 </h3>
 
 <b><img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="20" height="20" style="vertical-align:middle; margin-right:6px"> WEB DESIGN</b><br>
-- Modern Layouts & Responsive Design<br>
-- SEO-Friendly Structure<br>
-- Clean Navigation & Visual Storytelling<br><br>
-
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Modern Layouts & Responsive Design<br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> SEO-Friendly Structure<br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Clean Navigation & Visual Storytelling<br><br>
 <b><img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="20" height="20" style="vertical-align:middle; margin-right:6px"> AUTOMATION & TOOLS</b><br>
-- Web Automation & Bot Development<br>
-- API Integration & Script Building<br>
-- Workflow Optimization & Low-Code Solutions<br><br>
-
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Web Automation & Bot Development<br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> API Integration & Script Building<br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Workflow Optimization & Low-Code Solutions<br><br>
 <b><img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="20" height="20" style="vertical-align:middle; margin-right:6px"> DEVELOPMENT</b><br>
-- Full-Stack Development (Front-end + Back-end)<br>
-- Optimization & Support<br>
-- Clean Programming & Architecture Design
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Full-Stack Development (Front-end + Back-end)<br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Optimization & Support<br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Clean Programming & Architecture Design
 </td>
 </tr>
 </table>
@@ -209,7 +207,7 @@ Clean implementation focused on accessibility and usability.
 </h2>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mcemy&bg_color=FFE3EC&color=2E2A25&line=7AA6A1&point=FFB3C1&area=true&area_color=FFB3C1&title_color=2E2A25&hide_border=false&border_color=E8DCCF" alt="Activity Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mcemy&bg_color=FFE3EC&color=2E2A25&line=7AA6A1&point=FFB3C1&area=true&area_color=FFB3C1&title_color=2E2A25&hide_border=false&border_color=E8DCCF" alt="Contribution Graph"/>
 </div>
 
 ---
