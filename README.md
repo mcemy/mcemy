@@ -34,7 +34,7 @@
 <b>A junior developer with a strong full-stack foundation</b>, combining clean architecture, intentional code practices, and product-minded thinking. Specialized in creating <b>automation-first workflows</b> through APIs, scripts, and modern frameworks.
 
 <b>Currently mastering:</b><br>
-<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> TypeScript & Advanced React Patterns<br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> TypeScript <br>
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> AI Tooling & Prompt Engineering<br>
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Performance Optimization<br>
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Docs-as-Code Philosophy
@@ -48,7 +48,6 @@
 
 <b><img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="20" height="20" style="vertical-align:middle; margin-right:6px"> WEB DESIGN</b><br>
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Modern Layouts & Responsive Design<br>
-<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> SEO-Friendly Structure<br>
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Clean Navigation & Visual Storytelling<br><br>
 
 <b><img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="20" height="20" style="vertical-align:middle; margin-right:6px"> AUTOMATION & TOOLS</b><br>
