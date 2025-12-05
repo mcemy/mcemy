@@ -25,103 +25,45 @@
 
 <table>
 <tr>
-<td width="50%" valign="top" style="padding: 16px;">
-<h3 style="margin-top: 0;">
+<td width="50%" valign="top">
+<h3>
   <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/>
   MY EXPERIENCE
 </h3>
 
-<p>
-  <b>A junior developer with a strong full-stack foundation</b>, combining clean architecture,
-  intentional code practices, and product-minded thinking. Specialized in creating
-  <b>automation-first workflows</b> through APIs, scripts, and modern frameworks.
-</p>
+<b>Backend-focused developer with practical experience in automations, APIs and technical support.</b>
+I enjoy building reliable web solutions and integrated flows, while constantly improving my
+front-end, back-end and automation skills.<br><br>
 
-<p><b>Currently mastering:</b></p>
-<ul style="list-style:none; padding-left:0; margin-top:4px;">
-  <li>
-    <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
-    TypeScript
-  </li>
-  <li>
-    <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
-    AI Tooling &amp; Prompt Engineering
-  </li>
-  <li>
-    <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
-    Performance Optimization
-  </li>
-  <li>
-    <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
-    Docs-as-Code Philosophy
-  </li>
-</ul>
+
+<b>Core strengths:</b><br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
+Backend-first mindset with experience in REST APIs and data modeling.<br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
+Hands-on with integrations, webhooks and workflow automation.<br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
+Comfortable working across the stack when needed (front-end, back-end and infra support).
 </td>
 
-<td width="50%" valign="top" style="padding: 16px;">
-<h3 style="margin-top: 0;">
+<td width="50%" valign="top">
+<h3>
   <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/>
   SKILLS
 </h3>
 
-<p>
-  <b>
-    <img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="20" height="20" style="vertical-align:middle; margin-right:6px">
-    WEB DESIGN
-  </b>
-</p>
-<ul style="list-style:none; padding-left:0; margin-top:4px;">
-  <li>
-    <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
-    Modern Layouts &amp; Responsive Design
-  </li>
-  <li>
-    <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
-    Clean Navigation &amp; Visual Storytelling
-  </li>
-</ul>
+<b><img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="20" height="20" style="vertical-align:middle; margin-right:6px"> WEB DESIGN</b><br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Modern Layouts &amp; Responsive Design<br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Clean Navigation &amp; Visual Storytelling<br><br>
 
-<p style="margin-top:12px;">
-  <b>
-    <img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="20" height="20" style="vertical-align:middle; margin-right:6px">
-    AUTOMATION &amp; TOOLS
-  </b>
-</p>
-<ul style="list-style:none; padding-left:0; margin-top:4px;">
-  <li>
-    <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
-    Web Automation &amp; Bot Development
-  </li>
-  <li>
-    <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
-    API Integration &amp; Script Building
-  </li>
-  <li>
-    <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
-    Workflow Optimization &amp; Low-Code Solutions
-  </li>
-</ul>
+<b><img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="20" height="20" style="vertical-align:middle; margin-right:6px"> AUTOMATION &amp; TOOLS</b><br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Web Automation &amp; Bot Development<br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> API Integration &amp; Script Building<br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Workflow Optimization &amp; Low-Code Solutions<br><br>
 
-<p style="margin-top:12px;">
-  <b>
-    <img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="20" height="20" style="vertical-align:middle; margin-right:6px">
-    DEVELOPMENT
-  </b>
-</p>
-<ul style="list-style:none; padding-left:0; margin-top:4px;">
-  <li>
-    <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
-    Full-Stack Development (Front-end + Back-end)
-  </li>
-  <li>
-    <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
-    Optimization &amp; Support
-  </li>
-  <li>
-    <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
-    Clean Programming &amp; Architecture Design
-  </li>
-</ul>
+<b><img src="https://freepngimg.com/thumb/painting/84774-square-art-pixel-rectangle-cat-hd-image-free-png.png" width="20" height="20" style="vertical-align:middle; margin-right:6px"> DEVELOPMENT</b><br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Full-Stack Development (Front-end + Back-end)<br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Optimization &amp; Support<br>
+<img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/> Clean Programming &amp; Architecture Design
 </td>
 </tr>
 </table>
@@ -196,9 +138,6 @@
   <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/>
   <a href="https://github.com/mcemy/fnaf-inspired-overcooked-game">FNAF Game</a>
 </h3>
-<a href="https://github.com/mcemy/fnaf-inspired-overcooked-game">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=mcemy&repo=fnaf-inspired-overcooked-game&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&icon_color=7AA6A1&border_color=E8DCCF"/>
-</a><br>
 <b>Freddy na cozinha!</b> Um Overcooked retrô com pizzas,<br>
 correria e muita diversão.
 </td>
@@ -208,9 +147,6 @@ correria e muita diversão.
   <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/>
   <a href="https://github.com/mcemy/Texto-para-voz">Texto para Voz</a>
 </h3>
-<a href="https://github.com/mcemy/Texto-para-voz">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=mcemy&repo=Texto-para-voz&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&icon_color=7AA6A1&border_color=E8DCCF"/>
-</a><br>
 <b>Text-to-speech converter</b> with modern interface.<br>
 Clean implementation focused on accessibility and usability.
 </td>
