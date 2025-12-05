@@ -119,6 +119,36 @@
 <img src="https://github-profile-trophy.vercel.app/?username=mcemy&theme=chalk&no-bg=true&no-frame=true&row=1&column=7&margin-w=10" alt="Trophies"/>
 </div>
 
+
+<h2 style="text-align:left; background: linear-gradient(90deg, #FFFFFF 0%, #FFE3EC 100%); padding: 8px 12px; border-radius: 8px;">
+  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
+  MY PROJECTS
+</h2>
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="50%">
+<h3><img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> <a href="https://github.com/mcemy/fnaf-inspired-overcooked-gamed">FNAF Game</a></h3>
+<a href="https://github.com/mcemy/fnaf-inspired-overcooked-game">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=mcemy&repo=Automacao-Discord&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&icon_color=7AA6A1&border_color=E8DCCF"/>
+</a><br>
+<b>Freddy na cozinha!</b> Um Overcooked retrô com pizzas,<br>
+correria e muita diversão.
+</td>
+
+<td align="center" width="50%">
+<h3><img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> <a href="https://github.com/mcemy/Texto-para-voz">Texto para Voz</a></h3>
+<a href="https://github.com/mcemy/Texto-para-voz">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=mcemy&repo=Texto-para-voz&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&icon_color=7AA6A1&border_color=E8DCCF"/>
+</a><br>
+<b>Text-to-speech converter</b> with modern interface.<br>
+Clean implementation focused on accessibility and usability.
+</td>
+</tr>
+</table>
+</div>
+
 ---
 
 <h2 style="text-align:left; background: linear-gradient(90deg, #FFFFFF 0%, #FFE3EC 100%); padding: 8px 12px; border-radius: 8px;">
@@ -164,37 +194,6 @@
 </td>
 </tr>
 </table>
-</td>
-</tr>
-</table>
-</div>
-
----
-
-<h2 style="text-align:left; background: linear-gradient(90deg, #FFFFFF 0%, #FFE3EC 100%); padding: 8px 12px; border-radius: 8px;">
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
-  FEATURED PROJECTS
-</h2>
-
-<div align="center">
-<table>
-<tr>
-<td align="center" width="50%">
-<h3><img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> <a href="https://github.com/mcemy/fnaf-inspired-overcooked-gamed">FNAF Game</a></h3>
-<a href="https://github.com/mcemy/fnaf-inspired-overcooked-game">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=mcemy&repo=Automacao-Discord&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&icon_color=7AA6A1&border_color=E8DCCF"/>
-</a><br>
-<b>Freddy na cozinha!</b> Um Overcooked retrô com pizzas,<br>
-correria e muita diversão.
-</td>
-
-<td align="center" width="50%">
-<h3><img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> <a href="https://github.com/mcemy/Texto-para-voz">Texto para Voz</a></h3>
-<a href="https://github.com/mcemy/Texto-para-voz">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=mcemy&repo=Texto-para-voz&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&icon_color=7AA6A1&border_color=E8DCCF"/>
-</a><br>
-<b>Text-to-speech converter</b> with modern interface.<br>
-Clean implementation focused on accessibility and usability.
 </td>
 </tr>
 </table>
