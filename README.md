@@ -180,12 +180,12 @@
 <table>
 <tr>
 <td align="center" width="50%">
-<h3><img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> <a href="https://github.com/mcemy/Automacao-Discord">Automação Discord</a></h3>
-<a href="https://github.com/mcemy/Automacao-Discord">
+<h3><img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> <a href="https://github.com/mcemy/fnaf-inspired-overcooked-gamed">FNAF Game</a></h3>
+<a href="https://github.com/mcemy/fnaf-inspired-overcooked-game">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=mcemy&repo=Automacao-Discord&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&icon_color=7AA6A1&border_color=E8DCCF"/>
 </a><br>
-<b>Discord automation bot</b> with advanced features.<br>
-Streamlining workflows and enhancing server management.
+<b>Freddy na cozinha!</b> Um Overcooked retrô com pizzas,<br>
+correria e muita diversão.
 </td>
 
 <td align="center" width="50%">
