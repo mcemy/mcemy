@@ -129,7 +129,7 @@
 <table>
 <tr>
 <td align="center" width="50%">
-<h3><img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> <a href="https://github.com/mcemy/fnaf-inspired-overcooked-gamed">FNAF Game</a></h3>
+<h3><img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> <a href="https://github.com/mcemy/fnaf-inspired-overcooked-game">FNAF Game</a></h3>
 <a href="https://github.com/mcemy/fnaf-inspired-overcooked-game">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=mcemy&repo=Automacao-Discord&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&icon_color=7AA6A1&border_color=E8DCCF"/>
 </a><br>
