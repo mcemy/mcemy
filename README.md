@@ -35,7 +35,6 @@
 I enjoy building reliable web solutions and integrated flows, while constantly improving my
 front-end, back-end and automation skills.<br><br>
 
-
 <b>Core strengths:</b><br>
 <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="14" height="14" style="vertical-align:middle; margin-right:4px" alt="heart"/>
 Backend-first mindset with experience in REST APIs and data modeling.<br>
@@ -133,10 +132,14 @@ Comfortable working across the stack when needed (front-end, back-end and infra 
 <div align="center">
 <table>
 <tr>
+
 <td align="center" width="50%" style="padding: 12px;">
 <h3>
   <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/>
-  <a href="https://github.com/mcemy/fnaf-inspired-overcooked-game">FNAF Game</a>
+  <a href="https://github.com/mcemy/fnaf-inspired-overcooked-game">
+    FNAF Game
+    <img src="assets/icons8-funtime-freddy-48.png" width="22" height="22" style="vertical-align:middle; margin-left:6px" alt="Funtime Freddy icon"/>
+  </a>
 </h3>
 <b>Freddy na cozinha!</b> Um Overcooked retrô com pizzas,<br>
 correria e muita diversão.
@@ -145,11 +148,15 @@ correria e muita diversão.
 <td align="center" width="50%" style="padding: 12px;">
 <h3>
   <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/>
-  <a href="https://github.com/mcemy/Texto-para-voz">Texto para Voz</a>
+  <a href="https://github.com/mcemy/Texto-para-voz">
+    Texto para Voz
+    <img src="assets/automated-process_11253071.png" width="24" height="24" style="vertical-align:middle; margin-left:6px" alt="Automation icon"/>
+  </a>
 </h3>
 <b>Text-to-speech converter</b> with modern interface.<br>
 Clean implementation focused on accessibility and usability.
 </td>
+
 </tr>
 </table>
 </div>
