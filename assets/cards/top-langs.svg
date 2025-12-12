@@ -1,42 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="230" viewBox="0 0 520 230">
-<defs>
-  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-    <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.20"/>
-  </filter>
-</defs>
-<rect x="10" y="10" width="500" height="210" rx="14" fill="#FFE3EC" stroke="#E8DCCF" filter="url(#shadow)"/>
-<text x="22" y="44" font-family="Verdana,Segoe UI,Arial" font-size="18" fill="#2E2A25" font-weight="700">Most Used Languages</text>
-<text x="22" y="70" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">JavaScript</text>
-<text x="480" y="70" text-anchor="end" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">45.0%</text>
-<rect x="22" y="76" width="330" height="10" rx="5" fill="#FFFFFF" opacity="0.65"/>
-<rect x="22" y="76" width="148" height="10" rx="5" fill="#7AA6A1" opacity="0.95"/>
-<text x="22" y="88" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">Blade</text>
-<text x="480" y="88" text-anchor="end" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">29.5%</text>
-<rect x="22" y="94" width="330" height="10" rx="5" fill="#FFFFFF" opacity="0.65"/>
-<rect x="22" y="94" width="97" height="10" rx="5" fill="#7AA6A1" opacity="0.95"/>
-<text x="22" y="106" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">PHP</text>
-<text x="480" y="106" text-anchor="end" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">18.0%</text>
-<rect x="22" y="112" width="330" height="10" rx="5" fill="#FFFFFF" opacity="0.65"/>
-<rect x="22" y="112" width="59" height="10" rx="5" fill="#7AA6A1" opacity="0.95"/>
-<text x="22" y="124" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">TypeScript</text>
-<text x="480" y="124" text-anchor="end" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">2.2%</text>
-<rect x="22" y="130" width="330" height="10" rx="5" fill="#FFFFFF" opacity="0.65"/>
-<rect x="22" y="130" width="7" height="10" rx="5" fill="#7AA6A1" opacity="0.95"/>
-<text x="22" y="142" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">HTML</text>
-<text x="480" y="142" text-anchor="end" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">1.6%</text>
-<rect x="22" y="148" width="330" height="10" rx="5" fill="#FFFFFF" opacity="0.65"/>
-<rect x="22" y="148" width="5" height="10" rx="5" fill="#7AA6A1" opacity="0.95"/>
-<text x="22" y="160" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">Shell</text>
-<text x="480" y="160" text-anchor="end" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">1.5%</text>
-<rect x="22" y="166" width="330" height="10" rx="5" fill="#FFFFFF" opacity="0.65"/>
-<rect x="22" y="166" width="5" height="10" rx="5" fill="#7AA6A1" opacity="0.95"/>
-<text x="22" y="178" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">Batchfile</text>
-<text x="480" y="178" text-anchor="end" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">1.5%</text>
-<rect x="22" y="184" width="330" height="10" rx="5" fill="#FFFFFF" opacity="0.65"/>
-<rect x="22" y="184" width="5" height="10" rx="5" fill="#7AA6A1" opacity="0.95"/>
-<text x="22" y="196" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">CSS</text>
-<text x="480" y="196" text-anchor="end" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="#2E2A25">0.6%</text>
-<rect x="22" y="202" width="330" height="10" rx="5" fill="#FFFFFF" opacity="0.65"/>
-<rect x="22" y="202" width="4" height="10" rx="5" fill="#7AA6A1" opacity="0.95"/>
-<text x="22" y="208" font-family="Verdana,Segoe UI,Arial" font-size="10" fill="#2E2A25" opacity="0.60">Auto-updated daily</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="240" viewBox="0 0 520 240">
+<rect x="10" y="10" width="500" height="220" rx="14" fill="#FFE3EC" stroke="#E8DCCF"/>
+<text x="22" y="44" font-family="Segoe UI,Verdana,Arial" font-size="18" fill="#2E2A25" font-weight="700">Most Used Languages</text>
+<circle cx="22" cy="68" r="5" fill="#7AA6A1"/>
+<text x="38" y="72" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">JavaScript</text>
+<rect x="192" y="62" width="220" height="8" rx="4" fill="#FFFFFF" opacity="0.65"/>
+<rect x="192" y="62" width="98" height="8" rx="4" fill="#7AA6A1" opacity="0.95"/>
+<text x="498" y="72" text-anchor="end" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">45.0%</text>
+<circle cx="22" cy="88" r="5" fill="#C7A7CC"/>
+<text x="38" y="92" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">Blade</text>
+<rect x="192" y="82" width="220" height="8" rx="4" fill="#FFFFFF" opacity="0.65"/>
+<rect x="192" y="82" width="64" height="8" rx="4" fill="#7AA6A1" opacity="0.95"/>
+<text x="498" y="92" text-anchor="end" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">29.5%</text>
+<circle cx="22" cy="108" r="5" fill="#FFB3C1"/>
+<text x="38" y="112" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">PHP</text>
+<rect x="192" y="102" width="220" height="8" rx="4" fill="#FFFFFF" opacity="0.65"/>
+<rect x="192" y="102" width="39" height="8" rx="4" fill="#7AA6A1" opacity="0.95"/>
+<text x="498" y="112" text-anchor="end" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">18.0%</text>
+<circle cx="22" cy="128" r="5" fill="#A9C6E8"/>
+<text x="38" y="132" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">TypeScript</text>
+<rect x="192" y="122" width="220" height="8" rx="4" fill="#FFFFFF" opacity="0.65"/>
+<rect x="192" y="122" width="4" height="8" rx="4" fill="#7AA6A1" opacity="0.95"/>
+<text x="498" y="132" text-anchor="end" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">2.2%</text>
+<circle cx="22" cy="148" r="5" fill="#B7D7A8"/>
+<text x="38" y="152" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">HTML</text>
+<rect x="192" y="142" width="220" height="8" rx="4" fill="#FFFFFF" opacity="0.65"/>
+<rect x="192" y="142" width="3" height="8" rx="4" fill="#7AA6A1" opacity="0.95"/>
+<text x="498" y="152" text-anchor="end" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">1.6%</text>
+<circle cx="22" cy="168" r="5" fill="#F2C14E"/>
+<text x="38" y="172" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">Shell</text>
+<rect x="192" y="162" width="220" height="8" rx="4" fill="#FFFFFF" opacity="0.65"/>
+<rect x="192" y="162" width="3" height="8" rx="4" fill="#7AA6A1" opacity="0.95"/>
+<text x="498" y="172" text-anchor="end" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">1.5%</text>
+<circle cx="22" cy="188" r="5" fill="#E26D5C"/>
+<text x="38" y="192" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">Batchfile</text>
+<rect x="192" y="182" width="220" height="8" rx="4" fill="#FFFFFF" opacity="0.65"/>
+<rect x="192" y="182" width="3" height="8" rx="4" fill="#7AA6A1" opacity="0.95"/>
+<text x="498" y="192" text-anchor="end" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">1.5%</text>
+<circle cx="22" cy="208" r="5" fill="#9D8189"/>
+<text x="38" y="212" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">CSS</text>
+<rect x="192" y="202" width="220" height="8" rx="4" fill="#FFFFFF" opacity="0.65"/>
+<rect x="192" y="202" width="2" height="8" rx="4" fill="#7AA6A1" opacity="0.95"/>
+<text x="498" y="212" text-anchor="end" font-family="Segoe UI,Verdana,Arial" font-size="12" fill="#2E2A25">0.6%</text>
+<text x="22" y="218" font-family="Segoe UI,Verdana,Arial" font-size="10" fill="#2E2A25" opacity="0.55">Auto-updated daily</text>
 </svg>
