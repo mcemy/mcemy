@@ -1,0 +1,48 @@
+name: Update README Cards
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *" # todo dia 06:00 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate cards (top-langs + trophies)
+        env:
+          USERNAME: mcemy
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+
+          mkdir -p assets/cards
+
+          # Top Languages (github-readme-stats) - usar token pra evitar rate limit
+          curl -L --fail --retry 5 --retry-delay 2 \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact&langs_count=8&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&border_color=E8DCCF&cache_seconds=86400&token=${TOKEN}" \
+            -o assets/cards/top-langs.svg
+
+          # Trophies (github-profile-trophy)
+          curl -L --fail --retry 5 --retry-delay 2 \
+            "https://github-profile-trophy.vercel.app/?username=${USERNAME}&theme=chalk&no-bg=true&no-frame=true&row=1&column=7&margin-w=10&cache_seconds=86400" \
+            -o assets/cards/trophies.svg
+
+          # Garante que é SVG mesmo
+          head -n 2 assets/cards/top-langs.svg | cat
+          head -n 2 assets/cards/trophies.svg | cat
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/cards/top-langs.svg assets/cards/trophies.svg
+          git commit -m "chore: update readme cards" || exit 0
+          git push
