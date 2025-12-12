@@ -105,8 +105,10 @@ Comfortable working across the stack when needed (front-end, back-end and infra 
 </h2>
 
 <div align="center">
-  <img src="https://github-readme-stats-beryl-six-73.vercel.app/api/top-langs/?username=mcemy&layout=compact&langs_count=8&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&border_color=E8DCCF" alt="Most Used Languages"/>
-</div>
+  <img
+  src="https://github-readme-stats-beryl-six-73.vercel.app/api/top-langs/?username=mcemy&layout=compact&langs_count=8&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&border_color=E8DCCF&cache_seconds=21600"
+  alt="Most Used Languages"
+/>
 
 </td>
 </tr>
