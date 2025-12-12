@@ -189,9 +189,9 @@ Five Nights at Freddy's<br><br>
 </td>
 
 <td align="center" width="200" style="padding: 8px;">
-<img src="https://b-ssl.duitang.com/uploads/item/201805/31/20180531232035_yhyvx.gif" width="80" height="80" alt="차 차"/><br>
-<b>차 차</b> - <i>eugene</i><br>
-<a href="https://open.spotify.com/intl-pt/track/5gf02Up1VjHZ8hZYtmF1TE?si=cbc5403fd1fe4151">
+<img src="https://b-ssl.duitang.com/uploads/item/201805/31/20180531232035_yhyvx.gif" width="80" height="80" alt="Princess of the Dawn"/><br>
+<b>Princess of the Dawn</b> - <i>Accept</i><br>
+<a href="https://open.spotify.com/intl-pt/track/2CgXyaryyuxl35iMlvanD8?si=7bab19975a294f6c">
 <img src="https://img.shields.io/badge/▶-Spotify-FFB3C1?style=flat&logo=spotify&logoColor=2E2A25&labelColor=E8DCCF"/>
 </a>
 </td>
