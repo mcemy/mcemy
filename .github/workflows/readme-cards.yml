@@ -1,0 +1,119 @@
+name: Generate README Cards
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate SVG cards locally (NO external services)
+        env:
+          USERNAME: mcemy
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p assets/cards
+
+          python3 << 'PY'
+          import json, os, urllib.request
+
+          username = os.environ["USERNAME"]
+          token = os.environ["TOKEN"]
+
+          # ---------- FETCH LANGUAGES FROM GITHUB GRAPHQL ----------
+          query = """
+          query($login:String!) {
+            user(login:$login) {
+              repositories(ownerAffiliations: OWNER, isFork:false, first: 100) {
+                nodes {
+                  languages(first: 10, orderBy:{field:SIZE, direction:DESC}) {
+                    edges { size node { name } }
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          body = json.dumps({
+            "query": query,
+            "variables": {"login": username}
+          }).encode()
+
+          req = urllib.request.Request(
+            "https://api.github.com/graphql",
+            data=body,
+            headers={
+              "Authorization": f"Bearer {token}",
+              "Content-Type": "application/json"
+            }
+          )
+
+          data = json.loads(urllib.request.urlopen(req).read())
+          repos = data["data"]["user"]["repositories"]["nodes"]
+
+          totals = {}
+          for repo in repos:
+            for edge in repo["languages"]["edges"]:
+              name = edge["node"]["name"]
+              totals[name] = totals.get(name, 0) + edge["size"]
+
+          top = sorted(totals.items(), key=lambda x: x[1], reverse=True)[:8]
+          total_size = sum(v for _, v in top) or 1
+
+          # ---------- SVG: MOST USED LANGUAGES ----------
+          svg = [
+            '<svg xmlns="http://www.w3.org/2000/svg" width="420" height="200">',
+            '<rect x="1" y="1" width="418" height="198" rx="12" fill="#FFE3EC" stroke="#E8DCCF"/>',
+            '<text x="20" y="30" font-size="16" fill="#2E2A25" font-family="Verdana" font-weight="700">Most Used Languages</text>'
+          ]
+
+          y = 55
+          for lang, size in top:
+            pct = size / total_size * 100
+            bar = int(pct * 2)
+            svg.append(f'<text x="20" y="{y}" font-size="12" fill="#2E2A25">{lang} {pct:.1f}%</text>')
+            svg.append(f'<rect x="20" y="{y+6}" width="300" height="10" rx="5" fill="#fff" opacity="0.6"/>')
+            svg.append(f'<rect x="20" y="{y+6}" width="{max(bar,5)}" height="10" rx="5" fill="#7AA6A1"/>')
+            y += 22
+
+          svg.append('</svg>')
+
+          with open("assets/cards/top-langs.svg", "w") as f:
+            f.write("\n".join(svg))
+
+          # ---------- SVG: ACHIEVEMENTS (STATIC, NO FAIL) ----------
+          trophies = """
+          <svg xmlns="http://www.w3.org/2000/svg" width="500" height="120">
+            <rect x="1" y="1" width="498" height="118" rx="12" fill="#FFE3EC" stroke="#E8DCCF"/>
+            <text x="20" y="35" font-size="18" fill="#2E2A25" font-family="Verdana" font-weight="700">
+              GitHub Achievements
+            </text>
+            <text x="20" y="70" font-size="14" fill="#2E2A25">
+              • Active contributor
+            </text>
+            <text x="260" y="70" font-size="14" fill="#2E2A25">
+              • Open-source projects
+            </text>
+          </svg>
+          """
+
+          with open("assets/cards/trophies.svg", "w") as f:
+            f.write(trophies.strip())
+          PY
+
+      - name: Commit files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/cards
+          git commit -m "generate README cards" || exit 0
+          git push
