@@ -101,7 +101,7 @@ Comfortable working across the stack when needed (front-end, back-end and infra 
 
 <h2 style="text-align:left; background: linear-gradient(90deg, #FFFFFF 0%, #FFE3EC 100%); padding: 8px 12px; border-radius: 8px; margin-top:0;">
   <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
-  MOST USED LANGUAGES
+  LANGUAGES
 </h2>
 
 <div align="center">
