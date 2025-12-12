@@ -3,7 +3,7 @@ name: Update README Cards
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *" # todo dia 06:00 UTC
+    - cron: "0 6 * * *"
 
 permissions:
   contents: write
@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate cards with fallback (top-langs + trophies)
+      - name: Generate cards (resilient)
         env:
           USERNAME: mcemy
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -31,10 +31,9 @@ jobs:
               echo "Trying: $url"
               if curl -L --fail --silent --show-error \
                 --connect-timeout 10 --max-time 40 \
-                --retry 8 --retry-delay 3 --retry-all-errors \
+                --retry 6 --retry-delay 3 --retry-all-errors \
                 "$url" -o "$out"; then
-                # valida se parece SVG
-                if head -n 1 "$out" | grep -qi "<svg"; then
+                if head -n 2 "$out" | grep -qi "<svg"; then
                   echo "OK: saved $out"
                   return 0
                 fi
@@ -44,13 +43,100 @@ jobs:
             return 1
           }
 
-          # TOP LANGS (3 endpoints)
-          fetch_svg "assets/cards/top-langs.svg" \
+          # 1) TOP LANGS: tenta readme-stats (token só no oficial)
+          if ! fetch_svg "assets/cards/top-langs.svg" \
             "https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact&langs_count=8&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&border_color=E8DCCF&cache_seconds=86400&token=${TOKEN}" \
-            "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact&langs_count=8&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&border_color=E8DCCF&cache_seconds=86400&token=${TOKEN}" \
-            "https://github-readme-stats-denvercoder1.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact&langs_count=8&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&border_color=E8DCCF&cache_seconds=86400&token=${TOKEN}"
+            "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact&langs_count=8&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&border_color=E8DCCF&cache_seconds=86400" \
+            "https://github-readme-stats-denvercoder1.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact&langs_count=8&bg_color=FFE3EC&title_color=2E2A25&text_color=2E2A25&border_color=E8DCCF&cache_seconds=86400"
+          then
+            echo "All readme-stats endpoints failed. Generating top-langs.svg from GitHub GraphQL..."
 
-          # TROPHIES (2 endpoints)
+            # 2) Fallback: gera SVG próprio via GraphQL (100% independente do Vercel)
+            python3 - << 'PY'
+            import json, os, urllib.request
+            token = os.environ["TOKEN"]
+            username = os.environ["USERNAME"]
+
+            query = """
+            query($login:String!) {
+              user(login:$login) {
+                repositories(ownerAffiliations: OWNER, isFork:false, first: 100, orderBy:{field:UPDATED_AT, direction:DESC}) {
+                  nodes {
+                    languages(first: 10, orderBy:{field:SIZE, direction:DESC}) {
+                      edges { size node { name } }
+                    }
+                  }
+                }
+              }
+            }
+            """
+
+            body = json.dumps({"query": query, "variables": {"login": username}}).encode("utf-8")
+            req = urllib.request.Request(
+              "https://api.github.com/graphql",
+              data=body,
+              headers={
+                "Authorization": f"bearer {token}",
+                "Content-Type": "application/json",
+                "User-Agent": "readme-cards-generator"
+              },
+              method="POST"
+            )
+
+            with urllib.request.urlopen(req, timeout=30) as r:
+              data = json.loads(r.read().decode("utf-8"))
+
+            repos = data["data"]["user"]["repositories"]["nodes"]
+            totals = {}
+            for repo in repos:
+              for edge in repo["languages"]["edges"]:
+                name = edge["node"]["name"]
+                size = edge["size"]
+                totals[name] = totals.get(name, 0) + size
+
+            items = sorted(totals.items(), key=lambda x: x[1], reverse=True)[:8]
+            total_size = sum(v for _, v in items) or 1
+
+            # SVG simples (compact) com seu tema
+            bg = "#FFE3EC"
+            title = "#2E2A25"
+            text = "#2E2A25"
+            border = "#E8DCCF"
+
+            width, height = 420, 180
+            x0, y0 = 20, 50
+            bar_w, bar_h = 260, 10
+            line_h = 16
+
+            def esc(s):
+              return (s.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
+                       .replace('"',"&quot;").replace("'","&apos;"))
+
+            svg = []
+            svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}">')
+            svg.append(f'<rect x="0.5" y="0.5" width="{width-1}" height="{height-1}" rx="10" fill="{bg}" stroke="{border}"/>')
+            svg.append(f'<text x="20" y="30" font-family="Verdana,Segoe UI,Arial" font-size="16" fill="{title}" font-weight="700">Most Used Languages</text>')
+
+            y = y0
+            for name, size in items:
+              pct = size / total_size
+              fill_w = int(bar_w * pct)
+              svg.append(f'<text x="{x0}" y="{y}" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="{text}">{esc(name)} {pct*100:.1f}%</text>')
+              svg.append(f'<rect x="{x0}" y="{y+4}" width="{bar_w}" height="{bar_h}" rx="4" fill="#ffffff" opacity="0.65"/>')
+              svg.append(f'<rect x="{x0}" y="{y+4}" width="{max(fill_w,1)}" height="{bar_h}" rx="4" fill="#7AA6A1" opacity="0.95"/>')
+              y += line_h
+
+            svg.append('</svg>')
+
+            out_path = "assets/cards/top-langs.svg"
+            with open(out_path, "w", encoding="utf-8") as f:
+              f.write("\n".join(svg))
+
+            print("Generated:", out_path)
+            PY
+          fi
+
+          # 3) TROPHIES (com fallback)
           fetch_svg "assets/cards/trophies.svg" \
             "https://github-profile-trophy.vercel.app/?username=${USERNAME}&theme=chalk&no-bg=true&no-frame=true&row=1&column=7&margin-w=10&cache_seconds=86400" \
             "https://github-profile-trophy-git-main.devxb.vercel.app/?username=${USERNAME}&theme=chalk&no-bg=true&no-frame=true&row=1&column=7&margin-w=10&cache_seconds=86400"
