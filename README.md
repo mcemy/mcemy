@@ -166,8 +166,9 @@ Clean implementation focused on accessibility and usability.
   <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="16" height="16" style="vertical-align:middle; margin-right:6px" alt="heart"/> FAVORITE GAMES
 </h3>
 
-<img src="https://img.icons8.com/?size=100&id=AGd4H8W40vJ2&format=png&color=F25081" width="48" alt="Minecraft"/><br>
-<b>MINECRAFT</b><br>Building worlds, one block at a time<br><br>
+<img src="https://img.icons8.com/?size=100&id=qoVHhaT2G6uG&format=png&color=F25081" width="48" alt="FNAF"/><br>
+<b>FNAF</b><br>
+Five Nights at Freddy's<br><br>
 <img src="https://img.icons8.com/ios-filled/50/FFB3C1/the-sims.png" width="48" alt="The Sims"/><br>
 <b>THE SIMS</b><br>Creating stories through simulation
 </td>
