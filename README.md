@@ -113,15 +113,6 @@ Comfortable working across the stack when needed (front-end, back-end and infra 
 
 ---
 
-<h2 style="text-align:left; background: linear-gradient(90deg, #FFFFFF 0%, #FFE3EC 100%); padding: 8px 12px; border-radius: 8px;">
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
-  ACHIEVEMENTS
-</h2>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mcemy&theme=chalk&no-bg=true&no-frame=true&row=1&column=7&margin-w=10" alt="Trophies"/>
-</div>
-
 
 <h2 style="text-align:left; background: linear-gradient(90deg, #FFFFFF 0%, #FFE3EC 100%); padding: 8px 12px; border-radius: 8px;">
   <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/>
