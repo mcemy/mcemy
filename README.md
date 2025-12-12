@@ -3,10 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://art.pixilart.com/sr222a79ddbdaaws3.png" width="18" height="18" style="vertical-align:middle; margin-right:6px" alt="heart"/> 
-  <b>Crafting seamless digital experiences with modern web technologies.</b><br>
-  Passionate about clean code, automation-first flows, and building solutions that matter.<br>
-  Merging creativity with technical precision to deliver impactful projects.<br><br>
+  
 
   <a href="https://www.linkedin.com/in/emile-ferreira-21a776274" target="_blank">
     <img src="https://img.shields.io/badge/CONNECT-LinkedIn-FFB3C1?style=for-the-badge&logo=linkedin&logoColor=2E2A25&labelColor=E8DCCF">
