@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="120">
+  <rect x="1" y="1" width="498" height="118" rx="12" fill="#FFE3EC" stroke="#E8DCCF"/>
+  <text x="20" y="35" font-size="18" fill="#2E2A25" font-family="Verdana" font-weight="700">
+    GitHub Achievements
+  </text>
+  <text x="20" y="70" font-size="14" fill="#2E2A25">
+    • Active contributor
+  </text>
+  <text x="260" y="70" font-size="14" fill="#2E2A25">
+    • Open-source projects
+  </text>
+</svg>

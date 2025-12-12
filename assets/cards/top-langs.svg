@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="200">
+<rect x="1" y="1" width="418" height="198" rx="12" fill="#FFE3EC" stroke="#E8DCCF"/>
+<text x="20" y="30" font-size="16" fill="#2E2A25" font-family="Verdana" font-weight="700">Most Used Languages</text>
+<text x="20" y="55" font-size="12" fill="#2E2A25">JavaScript 45.0%</text>
+<rect x="20" y="61" width="300" height="10" rx="5" fill="#fff" opacity="0.6"/>
+<rect x="20" y="61" width="89" height="10" rx="5" fill="#7AA6A1"/>
+<text x="20" y="77" font-size="12" fill="#2E2A25">Blade 29.5%</text>
+<rect x="20" y="83" width="300" height="10" rx="5" fill="#fff" opacity="0.6"/>
+<rect x="20" y="83" width="59" height="10" rx="5" fill="#7AA6A1"/>
+<text x="20" y="99" font-size="12" fill="#2E2A25">PHP 18.0%</text>
+<rect x="20" y="105" width="300" height="10" rx="5" fill="#fff" opacity="0.6"/>
+<rect x="20" y="105" width="35" height="10" rx="5" fill="#7AA6A1"/>
+<text x="20" y="121" font-size="12" fill="#2E2A25">TypeScript 2.2%</text>
+<rect x="20" y="127" width="300" height="10" rx="5" fill="#fff" opacity="0.6"/>
+<rect x="20" y="127" width="5" height="10" rx="5" fill="#7AA6A1"/>
+<text x="20" y="143" font-size="12" fill="#2E2A25">HTML 1.6%</text>
+<rect x="20" y="149" width="300" height="10" rx="5" fill="#fff" opacity="0.6"/>
+<rect x="20" y="149" width="5" height="10" rx="5" fill="#7AA6A1"/>
+<text x="20" y="165" font-size="12" fill="#2E2A25">Shell 1.5%</text>
+<rect x="20" y="171" width="300" height="10" rx="5" fill="#fff" opacity="0.6"/>
+<rect x="20" y="171" width="5" height="10" rx="5" fill="#7AA6A1"/>
+<text x="20" y="187" font-size="12" fill="#2E2A25">Batchfile 1.5%</text>
+<rect x="20" y="193" width="300" height="10" rx="5" fill="#fff" opacity="0.6"/>
+<rect x="20" y="193" width="5" height="10" rx="5" fill="#7AA6A1"/>
+<text x="20" y="209" font-size="12" fill="#2E2A25">CSS 0.6%</text>
+<rect x="20" y="215" width="300" height="10" rx="5" fill="#fff" opacity="0.6"/>
+<rect x="20" y="215" width="5" height="10" rx="5" fill="#7AA6A1"/>
+</svg>
