@@ -15,24 +15,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate SVG cards locally (NO external services)
+      - name: Generate Languages card (pretty) + Cache Trophy (real)
         env:
           USERNAME: mcemy
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -e
           mkdir -p assets/cards
 
-          python3 << 'PY'
+          # ----------------------------
+          # 1) MOST USED LANGUAGES (PRETTY SVG) — 100% estável
+          # ----------------------------
+          python3 - << 'PY'
           import json, os, urllib.request
 
           username = os.environ["USERNAME"]
           token = os.environ["TOKEN"]
 
-          # ---------- FETCH LANGUAGES FROM GITHUB GRAPHQL ----------
           query = """
           query($login:String!) {
             user(login:$login) {
-              repositories(ownerAffiliations: OWNER, isFork:false, first: 100) {
+              repositories(ownerAffiliations: OWNER, isFork:false, first: 100, orderBy:{field:UPDATED_AT, direction:DESC}) {
                 nodes {
                   languages(first: 10, orderBy:{field:SIZE, direction:DESC}) {
                     edges { size node { name } }
@@ -43,77 +46,116 @@ jobs:
           }
           """
 
-          body = json.dumps({
-            "query": query,
-            "variables": {"login": username}
-          }).encode()
-
+          body = json.dumps({"query": query, "variables": {"login": username}}).encode("utf-8")
           req = urllib.request.Request(
             "https://api.github.com/graphql",
             data=body,
             headers={
               "Authorization": f"Bearer {token}",
-              "Content-Type": "application/json"
-            }
+              "Content-Type": "application/json",
+              "User-Agent": "readme-cards"
+            },
+            method="POST"
           )
 
-          data = json.loads(urllib.request.urlopen(req).read())
+          data = json.loads(urllib.request.urlopen(req, timeout=30).read().decode("utf-8"))
           repos = data["data"]["user"]["repositories"]["nodes"]
 
           totals = {}
           for repo in repos:
-            for edge in repo["languages"]["edges"]:
-              name = edge["node"]["name"]
-              totals[name] = totals.get(name, 0) + edge["size"]
+            for e in repo["languages"]["edges"]:
+              name = e["node"]["name"]
+              totals[name] = totals.get(name, 0) + e["size"]
 
           top = sorted(totals.items(), key=lambda x: x[1], reverse=True)[:8]
           total_size = sum(v for _, v in top) or 1
 
-          # ---------- SVG: MOST USED LANGUAGES ----------
-          svg = [
-            '<svg xmlns="http://www.w3.org/2000/svg" width="420" height="200">',
-            '<rect x="1" y="1" width="418" height="198" rx="12" fill="#FFE3EC" stroke="#E8DCCF"/>',
-            '<text x="20" y="30" font-size="16" fill="#2E2A25" font-family="Verdana" font-weight="700">Most Used Languages</text>'
-          ]
+          # ---- THEME (igual ao seu) ----
+          bg = "#FFE3EC"
+          title = "#2E2A25"
+          text = "#2E2A25"
+          border = "#E8DCCF"
+          bar_bg = "#FFFFFF"
+          bar_fill = "#7AA6A1"
 
-          y = 55
+          W, H = 520, 230
+          pad = 22
+
+          def esc(s):
+            return (s.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
+                    .replace('"',"&quot;").replace("'","&apos;"))
+
+          svg = []
+          svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">')
+          svg.append("""
+          <defs>
+            <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.20"/>
+            </filter>
+          </defs>
+          """.strip())
+
+          svg.append(f'<rect x="10" y="10" width="{W-20}" height="{H-20}" rx="14" fill="{bg}" stroke="{border}" filter="url(#shadow)"/>')
+          svg.append(f'<text x="{pad}" y="44" font-family="Verdana,Segoe UI,Arial" font-size="18" fill="{title}" font-weight="700">Most Used Languages</text>')
+
+          start_y = 70
+          row_h = 18
+          bar_x = pad
+          bar_w = 330
+          bar_h = 10
+          pct_x = W - pad - 18  # % alinhado à direita
+
+          y = start_y
           for lang, size in top:
-            pct = size / total_size * 100
-            bar = int(pct * 2)
-            svg.append(f'<text x="20" y="{y}" font-size="12" fill="#2E2A25">{lang} {pct:.1f}%</text>')
-            svg.append(f'<rect x="20" y="{y+6}" width="300" height="10" rx="5" fill="#fff" opacity="0.6"/>')
-            svg.append(f'<rect x="20" y="{y+6}" width="{max(bar,5)}" height="10" rx="5" fill="#7AA6A1"/>')
-            y += 22
+            pct = (size / total_size) * 100
+            fill_w = max(int(bar_w * (pct/100)), 4)
 
+            svg.append(f'<text x="{bar_x}" y="{y}" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="{text}">{esc(lang)}</text>')
+            svg.append(f'<text x="{pct_x}" y="{y}" text-anchor="end" font-family="Verdana,Segoe UI,Arial" font-size="12" fill="{text}">{pct:.1f}%</text>')
+
+            svg.append(f'<rect x="{bar_x}" y="{y+6}" width="{bar_w}" height="{bar_h}" rx="5" fill="{bar_bg}" opacity="0.65"/>')
+            svg.append(f'<rect x="{bar_x}" y="{y+6}" width="{fill_w}" height="{bar_h}" rx="5" fill="{bar_fill}" opacity="0.95"/>')
+            y += row_h
+
+          svg.append(f'<text x="{pad}" y="{H-22}" font-family="Verdana,Segoe UI,Arial" font-size="10" fill="{text}" opacity="0.60">Auto-updated daily</text>')
           svg.append('</svg>')
 
-          with open("assets/cards/top-langs.svg", "w") as f:
+          with open("assets/cards/top-langs.svg", "w", encoding="utf-8") as f:
             f.write("\n".join(svg))
-
-          # ---------- SVG: ACHIEVEMENTS (STATIC, NO FAIL) ----------
-          trophies = """
-          <svg xmlns="http://www.w3.org/2000/svg" width="500" height="120">
-            <rect x="1" y="1" width="498" height="118" rx="12" fill="#FFE3EC" stroke="#E8DCCF"/>
-            <text x="20" y="35" font-size="18" fill="#2E2A25" font-family="Verdana" font-weight="700">
-              GitHub Achievements
-            </text>
-            <text x="20" y="70" font-size="14" fill="#2E2A25">
-              • Active contributor
-            </text>
-            <text x="260" y="70" font-size="14" fill="#2E2A25">
-              • Open-source projects
-            </text>
-          </svg>
-          """
-
-          with open("assets/cards/trophies.svg", "w") as f:
-            f.write(trophies.strip())
           PY
 
-      - name: Commit files
+          # ----------------------------
+          # 2) TROPHIES REAIS — cache no repo (mantém o último se cair)
+          # ----------------------------
+          TMP="assets/cards/trophies.svg.tmp"
+          OUT="assets/cards/trophies.svg"
+
+          set +e
+          curl -L --silent --show-error --fail \
+            --connect-timeout 10 --max-time 40 \
+            --retry 6 --retry-delay 3 --retry-all-errors \
+            "https://github-profile-trophy.vercel.app/?username=mcemy&theme=chalk&no-bg=true&no-frame=true&row=1&column=7&margin-w=10" \
+            -o "$TMP"
+          CURL_OK=$?
+          set -e
+
+          if [ $CURL_OK -eq 0 ] && head -n 5 "$TMP" | grep -qi "<svg"; then
+            mv "$TMP" "$OUT"
+            echo "✅ Updated trophies.svg"
+          else
+            rm -f "$TMP"
+            if [ -f "$OUT" ]; then
+              echo "⚠️ Trophy service down. Keeping cached trophies.svg"
+            else
+              echo "❌ Trophy service down and no cached file yet."
+              exit 1
+            fi
+          fi
+
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/cards
-          git commit -m "generate README cards" || exit 0
+          git add assets/cards/top-langs.svg assets/cards/trophies.svg
+          git commit -m "chore: update readme cards" || exit 0
           git push
